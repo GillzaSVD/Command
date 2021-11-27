@@ -139,7 +139,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="command.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="garagedoor.cpp" />
+    <ClCompile Include="garagedoordowncommand.cpp" />
+    <ClCompile Include="garagedoorupcommand.cpp" />
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="lightoffcommand.cpp" />
+    <ClCompile Include="lightoncommand.cpp" />
+    <ClCompile Include="nocommand.cpp" />
+    <ClCompile Include="remotecontrol.cpp" />
+    <ClCompile Include="stereo.cpp" />
+    <ClCompile Include="stereonwithcdcommand.cpp" />
+    <ClCompile Include="stereooffcommand.cpp" />
+    <ClCompile Include="tv.cpp" />
+    <ClCompile Include="tvoffcommand.cpp" />
+    <ClCompile Include="tvoncommand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="command.h" />
+    <ClInclude Include="garagedoor.h" />
+    <ClInclude Include="garagedoordowncommand.h" />
+    <ClInclude Include="garagedoorupcommand.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="lightoffcommand.h" />
+    <ClInclude Include="lightoncommand.h" />
+    <ClInclude Include="nocommand.h" />
+    <ClInclude Include="remotecontrol.h" />
+    <ClInclude Include="stereo.h" />
+    <ClInclude Include="stereonwithcdcommand.h" />
+    <ClInclude Include="stereooffcommand.h" />
+    <ClInclude Include="tv.h" />
+    <ClInclude Include="tvoffcommand.h" />
+    <ClInclude Include="tvoncommand.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
