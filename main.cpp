@@ -55,6 +55,4 @@ int main(int argc, char* argv[])
 
     remoteControl->onButtonWasPushed(4);
     remoteControl->offButtonWasPushed(4);
-
-    return a.exec();
 }

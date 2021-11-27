@@ -1,8 +1,6 @@
 #pragma once
 
-#include <QObject>
-
-class Command : public QObject
+class Command
 {
 public:
     Command();
